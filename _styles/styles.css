@@ -1,7 +1,117 @@
 /* Main stylesheet for website */
 
-/* Will add styles later */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fcfcfc;
+  --black: #040404;
+
+  --gray1: #333333;
+  --gray2: #555555;
+  --gray3: #cccccc;
+  --gray4: #aaaaaa;
+
+  --teal: #006060;
+  --lightteal: #008080;
+  --purple: #800080;
+  --lavender: #e6e6fa;
+  --slateblue: #6a5acd;
+  --navy: #000080;
+  --blue: #1e90ff;
+  --violetred: #c71585;
+  --orange: #ffa500;
+  --red: #dc143c;
+  --green: #006400;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.1em;
+  color: var(--gray1);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--navy);
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: var(--navy);
+}
+
+header {
+  background-color: var(--navy);
+  padding: 20px 40px;
+}
+
+.site-title {
+  color: var(--white);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: var(--lavender);
+}
+
+#about p {
+  margin-bottom: 15px;
+}
+
+#about strong {
+  color: var(--blue);
+}
+
+#work .job {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--gray3);
+}
+
+#work h4 {
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin-bottom: 5px;
+}
+
+.job-date {
+  font-size: 0.95rem;
+  color: var(--gray2);
+  margin-bottom: 10px;
+}
+
+#work ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+#work li {
+  margin-bottom: 8px;
 }
