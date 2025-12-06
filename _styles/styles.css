@@ -78,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--lavender);
+  color: var(--orange);
 }
 
 #about p {
@@ -114,4 +114,26 @@ nav a:hover {
 
 #work li {
   margin-bottom: 8px;
+}
+
+/* Resume Button */
+.resume-button {
+  display: inline-block;
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 12px 22px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  font-size: 1rem;
+}
+
+.resume-button i {
+  margin-right: 8px;
+}
+
+.resume-button:hover {
+  background-color: var(--slateblue);
 }
