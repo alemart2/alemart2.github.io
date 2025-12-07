@@ -50,6 +50,7 @@
         <h3>Previous Work</h3>
 
         <!-- Resume Download Button -->
+        <!-- Source used: https://www.w3schools.com/tags/att_a_download.asp -->
         <a
           href="resume/Alex-Martinez-Lopez-Resume.pdf"
           download="Alex-Martinez-Lopez-Resume.pdf"
@@ -93,13 +94,90 @@
       </section>
 
       <section id="projects">
-        <!-- Projects will be listed here -->
+        <h3>Projects</h3>
+        <div class="projects-container">
+          <!-- Carcassonne Project Card -->
+          <div class="card">
+            <!-- Slideshow for Carcassonne -->
+            <!-- Source used: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img
+                  src="images/carcassonne.jpg"
+                  alt="Carcassonne Project Screenshot"
+                  class="slide-img"
+                />
+              </div>
+              <div class="mySlides fade">
+                <img src="images/carcassonne2.jpg" class="slide-img" />
+              </div>
+              <div class="mySlides fade">
+                <img src="images/carcassonne3.jpeg" class="slide-img" />
+              </div>
+              <div class="mySlides fade">
+                <img src="images/carcassonne4.jpg" class="slide-img" />
+              </div>
+            </div>
+
+            <div class="container">
+              <h4>Carcassonne Board Game</h4>
+              <!-- Source used: https://www.w3schools.com/howto/howto_js_accordion.asp -->
+              <button class="accordion">Carcassonne Board Game</button>
+              <div class="panel">
+                <p>
+                  A multiplayer digital remake of the classic board game
+                  <strong>Carcassonne</strong>, programmed in Java. This group
+                  project implemented tile mechanics, scoring systems, and full
+                  rule enforcement. Below are images of the game.
+                </p>
+                <a
+                  class="project-link"
+                  href="https://github.com/v-rob/Carcassonne.git"
+                  target="_blank"
+                >
+                  View GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mastermind Project Card -->
+          <div class="card">
+            <div class="project-image-box">
+              <img
+                src="images/mastermind.jpg"
+                alt="Mastermind Project Screenshot"
+                class="project-img"
+              />
+            </div>
+            <div class="container">
+              <h4>Mastermind Game</h4>
+
+              <button class="accordion">Mastermind Game</button>
+              <div class="panel">
+                <p>
+                  A full C implementation of the puzzle game
+                  <strong>Mastermind</strong>. The program generates a secret
+                  six-digit hex code, prints X's and O's for feedback after each
+                  guess, and allows up to 20 attempts to solve.
+                </p>
+                <a
+                  class="project-link"
+                  href="https://github.com/Alexm0223/Mastermind"
+                  target="_blank"
+                >
+                  View GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="contact">
         <!-- Contact form will be placed here -->
       </section>
     </main>
 
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

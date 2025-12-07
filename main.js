@@ -1,6 +1,5 @@
 // Select elements from the DOM
 const navLinks = document.querySelectorAll('a[href^="#"]');
-const resumeButton = document.querySelector("#resume-btn");
 
 // Function to smooth scroll (mirrors "addBookToDOM" structure from Lab 07)
 const smoothScroll = (anchor) => {
@@ -21,6 +20,44 @@ navLinks.forEach((link) => {
 });
 
 // Add interactivity for resume download (similar to error or final block in class)
-resumeButton.addEventListener("click", () => {
-  console.log("Resume is being downloaded.");
-});
+const resumeBtn = document.querySelector("#resume-btn");
+if (resumeBtn) {
+  resumeBtn.addEventListener("click", () => {
+    console.log("Resume download initiated.");
+  });
+}
+
+// Accordion Functionality
+// Source used: https://www.w3schools.com/howto/howto_js_accordion.asp
+const accordions = document.getElementsByClassName("accordion");
+
+for (let i = 0; i < accordions.length; i++) {
+  accordions[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+
+    let panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+// Automatic slideshow (for Carcassonne only)
+// source used: https://www.w3schools.com/howto/howto_js_slideshow.asp
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000);
+}
