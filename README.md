@@ -20,27 +20,29 @@ Includes a professional introduction, brief background, a statement about my goa
 - Contains structured descriptions of my job experience.
 - Includes a **Download Resume** button implemented using the `download` attribute, along with Font Awesome icons for styling.
 
-4. Projects Section -
-   Lists several academic projects with descriptions and links to GitHub repositories.
-   Includes:
+### 4. Projects Section -
 
-   - A. Project Cards
+Lists several academic projects with descriptions and links to GitHub repositories.
+Includes:
 
-     - Each project is displayed using custom-styled card components.
-     - Cards use shadows, rounded corners, and consistent spacing.
+- A. Project Cards
 
-   - B. Automatic Image Carousel (New Feature)
+  - Each project is displayed using custom-styled card components.
+  - Cards use shadows, rounded corners, and consistent spacing.
 
-     - The Carcassonne project uses a **JavaScript slideshow** that automatically rotates through multiple images.
-     - Built using:
-       - Timed function loops in JavaScript
-       - Dynamic class switching
-       - Responsive, centered image placement using `object-fit` and container rules
+- B. Automatic Image Carousel (New Feature)
 
-   - C. Accordion Component (New Feature) - Each project includes a collapsible **accordion** button. - Clicking reveals a detailed description and GitHub link. - Implemented using: - DOM event listeners - Class toggling - Smooth CSS transitions
+  - The Carcassonne project uses a **JavaScript slideshow** that automatically rotates through multiple images.
+  - Built using:
+    - Timed function loops in JavaScript
+    - Dynamic class switching
+    - Responsive, centered image placement using `object-fit` and container rules
 
-5. Contact Section -
-   Includes a Contact Form based on class assignments, styled to match the overall site theme.
+- C. Accordion Component (New Feature) - Each project includes a collapsible **accordion** button. - Clicking reveals a detailed description and GitHub link. - Implemented using: - DOM event listeners - Class toggling - Smooth CSS transitions
+
+### 5. Contact Section -
+
+Includes a Contact Form based on class assignments, styled to match the overall site theme and includes form validation.
 
 # Outside Sources Used:
 
