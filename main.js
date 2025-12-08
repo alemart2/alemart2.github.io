@@ -61,3 +61,30 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 3000);
 }
+
+// Contact Form Handler and Validation
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("contact-form");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById("contact-name").value.trim();
+    const email = document.getElementById("contact-email").value.trim();
+    const message = document.getElementById("contact-message").value.trim();
+
+    // validation rules
+    if (name.length < 2) {
+      alert("Please enter a valid name.");
+      return;
+    }
+
+    if (!email.includes("@") || !email.includes(".")) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    alert("Thank you! Your message has been received.");
+    form.reset();
+  });
+});
