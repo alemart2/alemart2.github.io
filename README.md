@@ -5,6 +5,15 @@ It is a professional personal website designed to highlight my background, skill
 
 ## Deloyed Website: https://alemart2.github.io/
 
+## How To Run Code:
+### Locally:
+1. Clone the repository - git clone https://github.com/alemart2/alemart2.github.io.git
+2. Navigate into the project folder: cd alemart2.github.io
+3. Open index.html in a browser or use VSCode Live
+### To Run the Website:
+- It is a project hosted on GitHub Pages
+- Visit the Deployed Website listed above 
+
 ## Features
 
 ### 1. Navigation Bar
