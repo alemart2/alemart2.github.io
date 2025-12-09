@@ -347,4 +347,7 @@ textarea:focus {
   position: sticky;
   top: 0;
   z-index: 1000; /* ensures the header stays above everything */
-  background-color: var(--nav
+  background-color: var(--navy);
+  padding: 10px 20px;
+  transition: padding 0.2s ease, background-color 0.2s ease;
+}
