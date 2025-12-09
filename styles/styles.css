@@ -42,10 +42,11 @@ section {
 
 h1 {
   text-align: center;
-  color: var(--navy);
+  justify-content: center;
+  color: var(--white);
 }
 
-h3 {
+h2 {
   margin-bottom: 20px;
   font-size: 1.8rem;
   color: var(--navy);
@@ -95,7 +96,7 @@ nav a:hover {
   border-bottom: 1px solid var(--gray3);
 }
 
-#work h4 {
+#work h3 {
   font-size: 1.4rem;
   color: var(--navy);
   margin-bottom: 5px;
@@ -169,7 +170,7 @@ nav a:hover {
   padding: 16px;
 }
 
-.card h4 {
+.card h3 {
   color: var(--navy);
   margin-bottom: 10px;
 }
@@ -324,7 +325,6 @@ input:focus,
 textarea:focus {
   outline: none;
   border-color: var(--blue);
-  box-shadow: 0 0 4px rgba(30, 144, 255, 0.5);
 }
 
 .contact-submit {
@@ -340,4 +340,13 @@ textarea:focus {
 
 .contact-submit:hover {
   background-color: var(--orange);
+}
+
+/* Sticky Header */
+#site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* ensures the header stays above everything */
+  background-color: var(--navy);
+  padding: 10px 20px;
 }

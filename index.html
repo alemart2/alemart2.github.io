@@ -14,8 +14,8 @@
   </head>
 
   <body>
-    <header>
-      <h1 class="site-title">Alex Martinez-Lopez</h1>
+    <header id="site-header">
+      <h1>Alex Martinez-Lopez</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -27,7 +27,7 @@
     </header>
     <main class="main">
       <section id="about">
-        <h3>About</h3>
+        <h2>About</h2>
         <p>
           Hello! My name is <strong>Alex Martinez-Lopez</strong> and I am a
           Computer Science student at Portland State University. I am currently
@@ -47,7 +47,7 @@
 
       <!-- WORK SECTION -->
       <section id="work">
-        <h3>Previous Work</h3>
+        <h2>Previous Work</h2>
 
         <!-- Resume Download Button -->
         <!-- Source used: https://www.w3schools.com/tags/att_a_download.asp -->
@@ -56,12 +56,13 @@
           download="Alex-Martinez-Lopez-Resume.pdf"
           class="resume-button"
           id="resume-btn"
+          aria-label="Download my resume as a PDF file"
         >
           <i class="fa fa-download"></i> Download My Resume (PDF)
         </a>
 
         <div class="job">
-          <h4>Pharmacy Delivery Driver — Isse Pharmacy</h4>
+          <h3>Pharmacy Delivery Driver — Isse Pharmacy</h3>
           <p class="job-date">July 2024 - Present</p>
           <ul>
             <li>
@@ -77,7 +78,7 @@
         </div>
 
         <div class="job">
-          <h4>General Merchandise - Target</h4>
+          <h3>General Merchandise - Target</h3>
           <p class="job-date">June 2019 - July 2022</p>
           <ul>
             <li>
@@ -94,7 +95,7 @@
       </section>
 
       <section id="projects">
-        <h3>Projects</h3>
+        <h2>Projects</h2>
         <div class="projects-container">
           <!-- Carcassonne Project Card -->
           <div class="card">
@@ -104,23 +105,35 @@
               <div class="mySlides fade">
                 <img
                   src="images/carcassonne.jpg"
-                  alt="Carcassonne Project Screenshot"
+                  alt="Carcassonne Title Screenshot"
                   class="slide-img"
                 />
               </div>
               <div class="mySlides fade">
-                <img src="images/carcassonne2.jpg" class="slide-img" />
+                <img
+                  src="images/carcassonne2.jpg"
+                  alt="Carcassonne board game with rules"
+                  class="slide-img"
+                />
               </div>
               <div class="mySlides fade">
-                <img src="images/carcassonne3.jpeg" class="slide-img" />
+                <img
+                  src="images/carcassonne3.jpeg"
+                  alt="Carcassonne tile placement screenshot"
+                  class="slide-img"
+                />
               </div>
               <div class="mySlides fade">
-                <img src="images/carcassonne4.jpg" class="slide-img" />
+                <img
+                  src="images/carcassonne4.jpg"
+                  alt="Carcassonne game board screenshot"
+                  class="slide-img"
+                />
               </div>
             </div>
 
             <div class="container">
-              <h4>Carcassonne Board Game</h4>
+              <h3>Carcassonne Board Game</h3>
               <!-- Source used: https://www.w3schools.com/howto/howto_js_accordion.asp -->
               <button class="accordion">Carcassonne Board Game</button>
               <div class="panel">
@@ -151,7 +164,7 @@
               />
             </div>
             <div class="container">
-              <h4>Mastermind Game</h4>
+              <h3>Mastermind Game</h3>
 
               <button class="accordion">Mastermind Game</button>
               <div class="panel">
