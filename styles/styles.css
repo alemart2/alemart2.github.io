@@ -1,5 +1,4 @@
 /* Main stylesheet for website */
-
 * {
   box-sizing: border-box;
 }
@@ -50,11 +49,6 @@ h2 {
   margin-bottom: 20px;
   font-size: 1.8rem;
   color: var(--navy);
-}
-
-header {
-  background-color: var(--navy);
-  padding: 20px 40px;
 }
 
 .site-title {
@@ -344,10 +338,37 @@ textarea:focus {
 
 /* Sticky Header */
 #site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* ensures the header stays above everything */
   background-color: var(--navy);
   padding: 10px 20px;
-  transition: padding 0.2s ease, background-color 0.2s ease;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: padding 0.2s ease;
+}
+
+#site-header.sticky-active {
+  padding: 0px 10px;
+}
+
+/* Scroll To Top Button */
+#scrollTopBtn {
+  display: none; /* Hidden until scrolling */
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  z-index: 100; /* stays above everything */
+  background-color: var(--navy);
+  color: var(--white);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 18px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#scrollTopBtn:hover {
+  background-color: var(--orange);
+  transform: scale(1.1);
 }

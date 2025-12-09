@@ -84,8 +84,3 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Please enter a valid email address.");
       return;
     }
-
-    alert("Thank you! Your message has been received.");
-    form.reset();
-  });
-});
