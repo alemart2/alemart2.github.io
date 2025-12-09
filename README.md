@@ -69,4 +69,9 @@ Includes a Contact Form based on class assignments, styled to match the overall 
 ### 5. W3Schools - Accordion Tutorial
 
 - Used to build the expandable project descriptions and learn how panel toggling works.
-- Link: https://www.w3schools.com/howto/howto_js_accordion.as
+- Link: https://www.w3schools.com/howto/howto_js_accordion.asp
+
+### 6. W3Schools - Automatic Slideshow / Carousel Tutorial
+
+- Used to build the automatic rotating image carousel for the Carcassonne project.
+- Link: https://www.w3schools.com/howto/howto_js_slideshow.asp
