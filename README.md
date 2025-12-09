@@ -75,3 +75,10 @@ Includes a Contact Form based on class assignments, styled to match the overall 
 
 - The header will stick to the top when you reach its scroll position.
 - Link: https://www.w3schools.com/howto/howto_js_sticky_header.asp
+
+### 7. W3Schools and MDN Web Docs - ScrollTo/Scroll To Top Button
+
+- A button that appears only when the user scrolls down. Helps user go back to the top of the page.
+- Links:
+1. https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo
+2. https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
