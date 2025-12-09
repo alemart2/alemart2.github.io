@@ -34,7 +34,7 @@ body {
 }
 
 section {
-  padding: 25px 20px;
+  padding: 20px 20px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -135,7 +135,7 @@ nav a:hover {
 
 /* PROJECTS SECTION */
 #projects {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .projects-container {
@@ -281,7 +281,7 @@ nav a:hover {
 
 /* Contact Section */
 #contact {
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 #contact p {
