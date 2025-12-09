@@ -84,3 +84,41 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Please enter a valid email address.");
       return;
     }
+
+    alert("Thank you! Your message has been received.");
+    form.reset();
+  });
+});
+
+// Sticky header shrink effect
+window.addEventListener("scroll", () => {
+  const header = document.getElementById("site-header");
+
+  if (window.scrollY > 50) {
+    header.classList.add("sticky-active");
+  } else {
+    header.classList.remove("sticky-active");
+  }
+});
+
+// Scroll-To-Top Button Logic (Based on W3Schools + MDN scroll)
+// Sources will be cited in README
+const scrollBtn = document.getElementById("scrollTopBtn");
+
+// Show button when scrolling down
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+
+// Smooth scroll to top using information learned from MDN scrollTo options
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
