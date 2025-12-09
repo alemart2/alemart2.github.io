@@ -37,6 +37,7 @@ section {
   padding: 20px 20px;
   max-width: 900px;
   margin: 0 auto;
+  scroll-margin-top: 80px;
 }
 
 h1 {
@@ -336,7 +337,6 @@ textarea:focus {
   background-color: var(--orange);
 }
 
-/* Sticky Header */
 #site-header {
   background-color: var(--navy);
   padding: 10px 20px;
@@ -346,6 +346,7 @@ textarea:focus {
   transition: padding 0.2s ease;
 }
 
+/* Sticky Header */
 #site-header.sticky-active {
   padding: 0px 10px;
 }
