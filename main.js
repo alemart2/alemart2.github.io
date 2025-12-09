@@ -2,6 +2,7 @@
 const navLinks = document.querySelectorAll('a[href^="#"]');
 
 // Function to smooth scroll (mirrors "addBookToDOM" structure from Lab 07)
+//Source used: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
 const smoothScroll = (anchor) => {
   const id = anchor.getAttribute("href");
   const target = document.querySelector(id);
@@ -83,8 +84,3 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Please enter a valid email address.");
       return;
     }
-
-    alert("Thank you! Your message has been received.");
-    form.reset();
-  });
-});
