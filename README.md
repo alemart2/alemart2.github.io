@@ -46,32 +46,32 @@ Includes a Contact Form based on class assignments, styled to match the overall 
 
 # Outside Sources Used:
 
-### 1. Smooth Scroll (scrollIntoView)
-
-- Instead of jumping instantly, the page scrolls down smoothly to the section clicked on navbar
-- Links: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
-
-### 2. Font Awesome (Icon Library)
+### 1. Font Awesome (Icon Library)
 
 - Used for adding a download icon to the resume button.
 - Link: https://fontawesome.com/v4/icon/download
 
-### 3. W3Schools — HTML <a download> attribute
+### 2. W3Schools — HTML <a download> attribute
 
 - Used to learn how the download attribute works to create the resume download button
 - Link: https://www.w3schools.com/tags/att_a_download.asp
 
-### 4. MDN Web Docs — scrollIntoView API
+### 3. MDN Web Docs — scrollIntoView API
 
 - Used as reference for implementing smooth scrolling navigation.
 - Link: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
 
-### 5. W3Schools - Accordion Tutorial
+### 4. W3Schools - Accordion Tutorial
 
 - Used to build the expandable project descriptions and learn how panel toggling works.
 - Link: https://www.w3schools.com/howto/howto_js_accordion.asp
 
-### 6. W3Schools - Automatic Slideshow / Carousel Tutorial
+### 5. W3Schools - Automatic Slideshow / Carousel Tutorial
 
 - Used to build the automatic rotating image carousel for the Carcassonne project.
 - Link: https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+### 6. W3Schools - Sticky Header
+
+- The header will stick to the top when you reach its scroll position.
+- Link: https://www.w3schools.com/howto/howto_js_sticky_header.asp
